@@ -1,0 +1,10 @@
+city,country_code,latitude,longitude,name,category_code,total_money_raised,founded_year,coordinates,check
+,ISR,17.08881,-96.76492,Sportingo,web,$3.2M,2006,"{'type': 'Point', 'coordinates': [17.08881, -96.76492]}",outside
+TromsÃ¸,NOR,69.636216,18.931062,Playfish,games_video,$21M,2007,"{'type': 'Point', 'coordinates': [69.636216, 18.931062]}",outside
+Dhanmondi,BGD,23.743156,90.379976,Code71,software,$1M,2006,"{'type': 'Point', 'coordinates': [23.743156, 90.379976]}",outside
+Saskatoon,CAN,52.143886,-106.6634565,MyFrontSteps,web,$3M,2008,"{'type': 'Point', 'coordinates': [52.143886, -106.6634565]}",outside
+Tartu,USA,58.3820542,26.731054,ZeroTurnaround,software,$2.7M,2007,"{'type': 'Point', 'coordinates': [58.3820542, 26.731054]}",outside
+Tartu,EST,58.3754107,26.7212208,Fortumo,mobile,$10M,2007,"{'type': 'Point', 'coordinates': [58.3754107, 26.7212208]}",outside
+"Abertillery, Gwent,",GBR,23.066066,-82.2927796,Atraverda,cleantech,£16.6M,2005,"{'type': 'Point', 'coordinates': [23.066066, -82.2927796]}",outside
+Perth,AUS,-31.97822,115.89084,HealthEngine,web,$10.4M,2007,"{'type': 'Point', 'coordinates': [-31.97822, 115.89084]}",outside
+Saskatoon,CAN,52.143886,-106.6634565,VendAsta,software,C$11.3M,2008,"{'type': 'Point', 'coordinates': [52.143886, -106.6634565]}",outside
