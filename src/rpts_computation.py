@@ -28,3 +28,12 @@ def countAirports(row):
         return 0
     else:
         return len(row.airports)//2
+
+
+def stationsOK(stations):
+    if stations == "no":
+        stations_ok = stations
+    else:
+        stations_ok = normPlaces(stations)
+        
+    return stations_ok

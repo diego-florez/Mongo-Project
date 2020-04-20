@@ -31,4 +31,42 @@ def checkCoord(row):
     return "inside" if test==True else "outside"
 
 
+def normPlaces(x):
+    data = pd.DataFrame({'place': x[0::2], 'coords': x[1::2]})
+    normalize = json_normalize(data.coords)
+    predf = pd.concat([data, normalize], axis=1, sort=False)
+    df = predf.rename(columns={"lat": "latitude", "lng": "longitude"})
+    finaldf = df.drop(columns=['coords'])
+    return finaldf
+
+
+def placesOK(starbucks, schools, bars, stations, vegan):
+    if starbucks != "no":
+        starbucks_ok = normPlaces(starbucks)
+    elif starbucks == "no":
+        starbucks_ok = starbucks
+
+    if schools != "no":
+        schools_ok = normPlaces(schools)
+    elif schools == "no":
+        schools_ok = schools
+
+    if bars != "no":
+        bars_ok = normPlaces(bars)
+    elif bars == "no":
+        bars_ok = bars
+
+    if stations != "no":
+        stations_ok = normPlaces(stations)
+    elif stations == "no":
+        stations_ok = stations
+
+    if vegan != "no":
+        vegan_ok = normPlaces(vegan)
+    elif vegan == "no":
+        vegan_ok = vegan
+    
+    return starbucks_ok, schools_ok, bars_ok, stations_ok, vegan_ok
+
+
 

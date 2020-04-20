@@ -28,3 +28,12 @@ def countBars(row):
         return 0
     else:
         return len(row.bars)//2
+
+
+def barsOK(bars):
+    if bars == "no":
+        bars_ok = bars
+    else:
+        bars_ok = normPlaces(bars)
+
+    return bars_ok

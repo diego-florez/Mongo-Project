@@ -28,3 +28,12 @@ def countVegan(row):
         return 0
     else:
         return len(row.vegan)//2
+
+
+def veganOK(vegan):
+    if vegan == "no":
+        vegan_ok = vegan
+    else:
+        vegan_ok = normPlaces(vegan)
+    
+    return vegan_ok

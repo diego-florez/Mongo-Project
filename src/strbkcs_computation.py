@@ -28,3 +28,12 @@ def countStarbucks(row):
         return 0
     else:
         return len(row.starbucks)//2
+
+
+def starbucksOK(starbucks):
+    if starbucks == "no":
+        starbucks_ok = starbucks
+    else:
+        starbucks_ok = normPlaces(starbucks)
+    
+    return starbucks_ok

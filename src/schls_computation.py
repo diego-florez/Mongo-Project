@@ -28,3 +28,12 @@ def countSchools(row):
         return 0
     else:
         return len(row.schools)//2
+
+
+def schoolsOK(schools):
+    if schools == "no":
+        schools_ok = schools
+    else:
+        schools_ok = normPlaces(schools)
+        
+    return schools_ok
