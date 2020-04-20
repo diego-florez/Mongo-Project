@@ -2,9 +2,9 @@ from src.df_computation import *
 from src.functions import *
 
 
-def getStarbucks(row):
+def getAirports(row):
     r = 2000
-    kw = "starbucks"
+    kw = "airports"
     results = []
     lat = row.latitude
     lng = row.longitude
@@ -23,8 +23,8 @@ def getStarbucks(row):
             return "no"
 
 
-def countStarbucks(row):
-    if row.starbucks == "no":
+def countAirports(row):
+    if row.airports == "no":
         return 0
     else:
-        return len(row.starbucks)//2
+        return len(row.airports)//2

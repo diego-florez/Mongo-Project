@@ -3,12 +3,12 @@ import os
 from dotenv import load_dotenv
 from math import sqrt
 from pandas.io.json import json_normalize
-from df_computation import *
+from src.df_computation import *
 
 
-def geoPlaces(address):
+def geoPlaces(lat,lng,r,kw):
     load_dotenv()
-    apiKey = os.getenv("google")
+    api_key = os.getenv("google")
     res = requests.get(f"https://maps.googleapis.com/maps/api/place/nearbysearch/json?location={lat},{lng}&radius={r}&keyword={kw}&key={api_key}")
     data = res.json()
     return data
@@ -29,4 +29,6 @@ def checkCoord(row):
     radius = 2
     test =  any(i <= radius for i in c)
     return "inside" if test==True else "outside"
+
+
 

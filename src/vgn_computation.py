@@ -2,9 +2,9 @@ from src.df_computation import *
 from src.functions import *
 
 
-def getStarbucks(row):
+def getVegan(row):
     r = 2000
-    kw = "starbucks"
+    kw = "vegan"
     results = []
     lat = row.latitude
     lng = row.longitude
@@ -23,8 +23,8 @@ def getStarbucks(row):
             return "no"
 
 
-def countStarbucks(row):
-    if row.starbucks == "no":
+def countVegan(row):
+    if row.vegan == "no":
         return 0
     else:
-        return len(row.starbucks)//2
+        return len(row.vegan)//2
