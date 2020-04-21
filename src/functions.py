@@ -40,33 +40,7 @@ def normPlaces(x):
     return finaldf
 
 
-def placesOK(starbucks, schools, bars, stations, vegan):
-    if starbucks != "no":
-        starbucks_ok = normPlaces(starbucks)
-    elif starbucks == "no":
-        starbucks_ok = starbucks
 
-    if schools != "no":
-        schools_ok = normPlaces(schools)
-    elif schools == "no":
-        schools_ok = schools
-
-    if bars != "no":
-        bars_ok = normPlaces(bars)
-    elif bars == "no":
-        bars_ok = bars
-
-    if stations != "no":
-        stations_ok = normPlaces(stations)
-    elif stations == "no":
-        stations_ok = stations
-
-    if vegan != "no":
-        vegan_ok = normPlaces(vegan)
-    elif vegan == "no":
-        vegan_ok = vegan
-    
-    return starbucks_ok, schools_ok, bars_ok, stations_ok, vegan_ok
 
 
 
