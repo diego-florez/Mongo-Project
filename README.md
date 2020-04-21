@@ -16,8 +16,9 @@ OUTPUT (where dataframes and map are)
 # 4.Final Output:
 The final output is a map with the "perfect" location for an startup based in some conditions.
 
-Source: Crunchbase companies data
-Conditions:
+# Additional Info
+1. Source: Crunchbase companies data
+2. Conditions:
 - Designers like to go to design talks and share knowledge. There must be some nearby companies that also do design.
 - 30% of the company have at least 1 child.
 - Developers like to be near successful tech startups that have raised at least 1 Million dollars.
