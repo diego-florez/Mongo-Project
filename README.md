@@ -1,6 +1,6 @@
 # Mongo-Project -- Find Your Startup Location
 
-#3 1.Intro:
+## 1.Intro:
 In this repository you will find a project about geolocation. In this case, we will try to find the perfect location for a startup based in some conditions.
 
 ## 2.Goals:
