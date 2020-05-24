@@ -1,22 +1,22 @@
 # Mongo-Project -- Find Your Startup Location
 
-# 1.Intro:
+#3 1.Intro:
 In this repository you will find a project about geolocation. In this case, we will try to find the perfect location for a startup based in some conditions.
 
-# 2.Goals:
+## 2.Goals:
 The main goal of this project is to find the perfect location for a startup based in some conditions. Also, the second goal is to create map with the final coordinates of the location.
 
-# 3.Steps:
+## 3.Steps:
 To fulfil the previous goals the next steps have been done:
 
 src (acquire data through api request and compute all the backstage)
 main.ipynb (the start, knot and outcome of the project, without the backstage functions)
 OUTPUT (where dataframes and map are)
 
-# 4.Final Output:
+## 4.Final Output:
 The final output is a map with the "perfect" location for an startup based in some conditions.
 
-# Additional Info:
+### Additional Info:
 1. Source: Crunchbase companies data
 2. Conditions:
 - 30% of the company have at least 1 child.
